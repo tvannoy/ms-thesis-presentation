@@ -1,0 +1,11 @@
+.flanger0,
+.flanger1,
+.flanger2,
+.flanger3,
+.flanger4 { background-image: url('flanger_icons.png'); width: 16px; height: 16px; }
+
+.flanger0 { background-position: -0px; }
+.flanger1 { background-position: -16px; }
+.flanger2 { background-position: -32px; }
+.flanger3 { background-position: -48px; }
+.flanger4 { background-position: -64px; }

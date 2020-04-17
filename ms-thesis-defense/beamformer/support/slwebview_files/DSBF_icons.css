@@ -1,0 +1,13 @@
+.DSBF0,
+.DSBF1,
+.DSBF2,
+.DSBF3,
+.DSBF4,
+.DSBF5 { background-image: url('DSBF_icons.png'); width: 16px; height: 16px; }
+
+.DSBF0 { background-position: -0px; }
+.DSBF1 { background-position: -16px; }
+.DSBF2 { background-position: -32px; }
+.DSBF3 { background-position: -48px; }
+.DSBF4 { background-position: -64px; }
+.DSBF5 { background-position: -80px; }

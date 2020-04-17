@@ -1,0 +1,11 @@
+.SE0,
+.SE1,
+.SE2,
+.SE3,
+.SE4 { background-image: url('SE_icons.png'); width: 16px; height: 16px; }
+
+.SE0 { background-position: -0px; }
+.SE1 { background-position: -16px; }
+.SE2 { background-position: -32px; }
+.SE3 { background-position: -48px; }
+.SE4 { background-position: -64px; }

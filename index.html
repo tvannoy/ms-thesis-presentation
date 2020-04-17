@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>MS thesis Defense</title>
+
+		<meta name="description" content="Enabling Rapid Prototyping of Audio Signal Processing System using System-on-Chip Field Programmable Gate Arrays. ">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+		<!-- User CSS -->
+		<style id="user-css-output" type="text/css">
+			.reveal {
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* cyrillic-ext */
+  /* cyrillic */
+  /* greek-ext */
+  /* greek */
+  /* vietnamese */
+  /* latin-ext */
+  /* latin */
+  /* latin */
+  /* fallback */
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMOvWjMY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPuvWjMY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMuvWjMY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWjMY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevW.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofIOOaBXso.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofIMeaBXso.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofIOuaBXso.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofIO-aBXso.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUbOvISTs.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUZevISTs.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUbuvISTs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUb-vISTs.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJT9g.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJT9g.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJT9g.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJT9g.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJT9g.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdh18Smxg.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdo18Smxg.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdg18Smxg.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdv18Smxg.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdj18Smxg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdi18Smxg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxduz8A.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxduz8A.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBduz8A.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBduz8A.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRduz8A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v9/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.reveal .material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+.reveal .slides {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+  color: #555555;
+}
+.reveal .slides strong {
+  color: black;
+}
+.reveal .slides h1 {
+  font-size: 4em;
+}
+.reveal .slides h2 {
+  font-size: 3em;
+}
+.reveal .slides h3 {
+  font-size: 1.75em;
+}
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3,
+.reveal .slides h4,
+.reveal .slides h5,
+.reveal .slides h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  text-transform: none;
+}
+.reveal .slides h1 strong,
+.reveal .slides h2 strong,
+.reveal .slides h3 strong,
+.reveal .slides h4 strong,
+.reveal .slides h5 strong,
+.reveal .slides h6 strong {
+  color: black;
+  text-shadow: none;
+  font-weight: bold;
+}
+.reveal .slides .progress span {
+  background-color: black;
+}
+.reveal .slides sub {
+  font-size: 25%;
+}
+.reveal .slides li:not(:last-child) {
+  padding-bottom: 2%;
+}
+.reveal .slides a {
+  font-family: "Share Tech Mono", monospace !important;
+  word-break: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -ms-word-break: break-all;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  font-size: 0.8em;
+}
+.reveal .slides code {
+  font-family: "Source Code Pro", monospace !important;
+  color: black !important;
+  text-shadow: none;
+  text-transform: none;
+}
+.reveal .slides pre code {
+  font-family: "Source Code Pro", monospace !important;
+  background: inherit !important;
+  text-shadow: none;
+  text-transform: none;
+}
+.reveal .slides .caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: small;
+}
+.reveal .slides section .fragment {
+  transition: all 0.6s ease;
+}
+.reveal .slides table {
+  white-space: pre-line;
+}
+.reveal .slides table th {
+  font-family: "Nunito", sans-serif;
+  word-wrap: break-word;
+  font-size: 0.8em;
+}
+.reveal .slides table td {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #555555;
+  word-wrap: break-word;
+  font-size: 0.8em;
+}
+.reveal .controls {
+  display: none !important;
+}
+.reveal .red-icon path svg {
+  fill: "red";
+}
+.reveal td.hljs-ln-code {
+  white-space: pre-wrap;
+}
+
+		</style>
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="98f266dd1c2a1d8da99124bdd2cf6a4a"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 105px; height: auto;" data-block-id="94e3897844d9dd139442699a440fd68b">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 10;">
+        <h2>Please mute your microphone and video</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 280px; height: 280px; left: 89px; top: 387px; min-width: 1px; min-height: 1px;" data-name="image-ccd498" data-block-id="654dedde757e7290cd09947d651bf001">
+    <div class="sl-block-content" style="z-index: 11;" data-inline-svg="true">
+<img style="" data-natural-width="24" data-natural-height="24" data-src="ms-thesis-defense/3319f08fd80c19d5e59dfedd28a1743a.svg"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" preserveaspectratio="xMidYMid meet">
+            <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none"></path>
+            <path fill="#329900" d="M13.12 2.06L7.58 7.6c-.37.37-.58.88-.58 1.41V19c0 1.1.9 2 2 2h9c.8 0 1.52-.48 1.84-1.21l3.26-7.61C23.94 10.2 22.49 8 20.34 8h-5.65l.95-4.58c.1-.5-.05-1.01-.41-1.37-.59-.58-1.53-.58-2.11.01zM3 21c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2s-2 .9-2 2v8c0 1.1.9 2 2 2z"></path>
+        </svg>
+</div>
+</div>
+<div class="sl-block" data-block-type="shape" style="width: 300px; height: 300px; left: 542px; top: 367px;" data-name="shape-2c7769" data-block-id="0ed682d55155316dfccb94042bdd7cb0">
+    <div class="sl-block-content" data-shape-type="symbol-smiley" data-shape-fill-color="rgb(0, 51, 153)" data-shape-stretch="true" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 32 32">
+
+            
+        <g class="shape-element" fill="rgb(0, 51, 153)" data-viewbox="0 0 32 32"><path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM8 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2-1.105 0-2-0.895-2-2zM20 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2-1.105 0-2-0.895-2-2zM22.003 19.602l2.573 1.544c-1.749 2.908-4.935 4.855-8.576 4.855s-6.827-1.946-8.576-4.855l2.573-1.544c1.224 2.036 3.454 3.398 6.003 3.398s4.779-1.362 6.003-3.398z"></path></g></svg></div>
+</div></section><section data-id="6d03616a652b740e9c4bf7b64c727784">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 440.001px;" data-name="text-690a15" data-block-id="f257de38393c8475e8ea48a2ed6ce868">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p><span style="font-size:1.2em"><strong>Trevor Vannoy</strong></span></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 510.001px;" data-name="text-a9af19" data-block-id="1e985e7aa304eaa9c11072872084d654"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<p>Advisor: Ross Snider</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 580.001px;" data-name="text-19cc94" data-block-id="6e4c80d5165a28aeb2a2f20db0bd9683"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p>MS Thesis Defense | April 8 2020</p>
+</div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-0d4ea5" data-block-id="bdc8c3d0279fe8959e63afa1e9a026cb" style="height: auto;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 480px 245.001px 0px; z-index: 12;">
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 81.0002px; height: auto;" data-block-id="fb7e47929014db42bb72fe7d1249ae6c">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 13; color: rgb(85, 85, 85); line-height: 1.56; --darkreader-inline-color:#f4f0eb;" data-has-line-height="" data-darkreader-inline-color="">
+<h3><span style="font-size:0.9em">Enabling Rapid Prototyping of Audio Signal Processing Systems using System-on-Chip Field Programmable Gate Arrays </span></h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 0px; top: 408.001px;" data-name="line-711c1f" data-block-id="fef0aabe25a6d39aad24c9198b7fc898">
+    <div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="959.999999721494" data-line-y2="0" data-line-color="#888888" data-line-start-type="none" data-line-end-type="none" style="z-index: 14;" data-line-width="2px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="959.999999721494" height="1" viewbox="0 0 959.999999721494 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="959.999999721494" y2="0"></line><line class="line-element" stroke="#888888" stroke-width="2" x1="0" y1="0" x2="959.999999721494" y2="0"></line></svg></div>
+</div>
+</div></div></section><section data-id="9a1e0c1d2ab0a464bb6c33df3ad669c4">
+<div class="sl-block" data-block-type="video" style="min-width: 30px; min-height: 30px; width: 272.419px; height: 168.9px; left: 0.968px; top: 251.1px;" data-name="video-5922ef" data-block-id="f03bbc4a1170be02a1bd7a598455912d"><div class="sl-block-content" style="z-index: 10;" data-media-id="7239703" data-video-thumb="ms-thesis-defense/2d74e35306939dd60f18694fc335d3a0.jpg"><video playsinline="" poster="ms-thesis-defense/2d74e35306939dd60f18694fc335d3a0.jpg" data-autoplay="" loop="loop" muted="" data-paused-by-reveal="" data-lazy-loaded="" data-src="ms-thesis-defense/63c0bb4c2a5b0739c126d87bbc8da9f8.mp4"></video></div></div>
+<div class="sl-block" data-block-type="video" style="min-width: 30px; min-height: 30px; width: 272.419px; height: 168.9px; left: 686.613px; top: 251.1px;" data-name="video-51ea57" data-block-id="7385b9fdc478a102b7118e506f68df22"><div class="sl-block-content" style="z-index: 11;" data-media-id="7239710" data-video-thumb="ms-thesis-defense/8f4cfeef521a600322af9ede1d91d445.jpg"><video playsinline="" poster="ms-thesis-defense/8f4cfeef521a600322af9ede1d91d445.jpg" data-autoplay="" muted="" loop="loop" data-paused-by-reveal="" data-lazy-loaded="" data-src="ms-thesis-defense/d4f9dd89597de2ab8b78f59743d285f7.mp4"></video></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 402.613px; height: 290px; left: 284px; top: 200px;" data-name="shape-773b0f" data-block-id="67bdc86c7984836639bb130c7c4164cf"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 12;" data-shape-stroke-color="#000000" data-shape-stroke-width="5px" data-shape-corner-radius="20px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 403 290"><defs><clippath id="shape-mask-1-1586309315142"><rect width="402.613" height="290" rx="20" ry="20" fill="rgb(255, 255, 255)" stroke="#000000" stroke-width="10"></rect></clippath></defs><rect width="402.613" height="290" rx="20" ry="20" class="shape-element" fill="rgb(255, 255, 255)" stroke="#000000" stroke-width="10" clip-path="url(#shape-mask-1-1586309315142)"></rect></svg></div></div>
+<div class="sl-block" data-block-type="image" style="width: 354.874px; height: 280px; left: 307.87px; top: 205px; min-width: 1px; min-height: 1px;" data-name="image-23dbf7" data-block-id="7821e4e4869ee6e5be0b3cf970de7d2d"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="0"><img style="" data-natural-width="1711" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/015d498218e976166506c8fdbd094e93.jpg"></div></div></section><section data-id="29a145b64dcdbd227187b2af3183842b"><div class="sl-block sl-block-group" data-block-type="group" data-name="group-6e824e" data-block-id="3d96166961228a7985edb57bae6bceb7" style="height: auto;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 477px 350px 0px; z-index: 10;"><div class="sl-block sl-block-group" data-block-type="group" data-name="group-a919ee" data-block-id="7a5add586e2123bcad44d2a868833f0b" style="height: auto;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 477px 350px 0px; z-index: 11;">
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 122.628px; height: auto;" data-block-id="9c943777be96134ebd1d1f69c2420689"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h1>Outline</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 299.372px; height: auto;" data-block-id="049341fad9731bc0f2e30aa239ae4a2f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li><span style="font-size:1.2em">FPGA background</span></li>
+	<li><span style="font-size:1.2em">Problems with FPGA development</span></li>
+	<li><span style="font-size:1.2em">Development framework</span></li>
+	<li><span style="font-size:1.2em">Sound effects processor example</span></li>
+	<li><span style="font-size:1.2em">Delay and sum beamformer example</span></li>
+</ul>
+</div></div>
+</div></div></div></div></section><section class="stack" data-id="db19d2c9b22f15358c86dcab1a3878cb"><section data-id="c885cc9aa37146604cd6aca9fa74563e"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 70px; height: auto;" data-block-id="53549f4520854ffd8c095ee9056dd43e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>System-on-Chip</h2>
+
+<h2>Field Programmable</h2>
+
+<h2>Gate Arrays</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 492px; height: auto;" data-block-id="86f6ab2294c92c1e6ad49cfc17980a8b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;">
+<h3>a.k.a SoC FPGAs</h3>
+</div></div></section><section data-id="4be6bca48ced5d187d95756cf7a650bf"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 0px; height: auto;" data-block-id="e71c2a7e9f6531f149cb765a45cc0ae3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>What's an FPGA?</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 770.856px; height: 583px; left: 168px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-dae957" data-block-id="44428b4ba8556702e43e9bd93c68926f"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1785" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/01729aa36c599778dc79993951faf564.png"></div></div></section><section data-id="a56f18763cf67bd16c92cd97e8a3684a"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="47337a5c7eb3e69b538dd05c7905ed9f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>What's an SoC FPGA?</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 886.499px; height: 583px; left: 36.7505px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-5d8fea" data-block-id="687eaeae25e87a1bf5f19d855110fa69"><div class="sl-block-content fragment fade-out" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="1884" data-natural-height="1239" data-lazy-loaded="" data-src="ms-thesis-defense/3c8bcfa9afc173dbc105b0c5f169e298.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 886.499px; height: 583px; left: 36.7505px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-b2a73a" data-block-id="e5b6cbb7af69e86ff0c961bb4f5230a7"><div class="sl-block-content fragment current-visible" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="1884" data-natural-height="1239" data-lazy-loaded="" data-src="ms-thesis-defense/28ef2302999d86fc960b09005f34288b.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 886.499px; height: 583px; left: 36.7505px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-a43e5d" data-block-id="cb2af13027cbc66617b1692dad84fde1"><div class="sl-block-content fragment current-visible" style="z-index: 13;" data-fragment-index="1"><img style="" data-natural-width="1884" data-natural-height="1239" data-lazy-loaded="" data-src="ms-thesis-defense/5cb1150ad5d03b3d893a9b06ff59bf65.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 886.499px; height: 583px; left: 36.7505px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-4bb0bd" data-block-id="d156ff75d3376831b67c2fc98000337b"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="2"><img style="" data-natural-width="1884" data-natural-height="1239" data-lazy-loaded="" data-src="ms-thesis-defense/715e773fb0ddefded74c260173b628ac.png"></div></div></section><section data-id="8454e90dbf7d8e96f4f6f899257a6499"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11.5px; height: auto;" data-block-id="5a0fafd2aaeca7c001a1c204f50b48ac"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Why use them?</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 800px; height: 529.975px; left: 80px; top: 140px; min-width: 1px; min-height: 1px;" data-name="image-65c70e" data-block-id="621b3b808d38c6aaef3dd082b8263453"><div class="sl-block-content fragment semi-fade-out" style="z-index: 11;" data-fragment-index="0" data-inline-svg="false"><img style="" data-natural-width="397" data-natural-height="263" data-lazy-loaded="" data-src="ms-thesis-defense/81ca8b6e75f3d87adb67c29d71657dd0.svg"></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 277.661px; height: 92.8619px; left: 441.609px; top: 290.707px;" data-name="shape-ca0e91" data-block-id="38fe8b83a41877ad6e584e3c40868956"><div class="sl-block-style" style="z-index: 14; transform: rotate(-2deg);"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 14;" data-shape-stroke-color="#990032" data-shape-stroke-width="6px" data-fragment-index="0"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 278 93"><defs><clippath id="shape-mask-2-1586050413741"><ellipse rx="138.8305" ry="46.43095" cx="138.8305" cy="46.43095" fill="rgba(0, 0, 0, 0)" stroke="#990032" stroke-width="12" style="--darkreader-inline-fill:rgba(255, 254, 251, 0); --darkreader-inline-stroke:#ff85b5;" data-darkreader-inline-fill="" data-darkreader-inline-stroke=""></ellipse></clippath></defs><ellipse rx="138.8305" ry="46.43095" cx="138.8305" cy="46.43095" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#990032" stroke-width="12" style="--darkreader-inline-fill:rgba(255, 254, 251, 0); --darkreader-inline-stroke:#ff85b5;" data-darkreader-inline-fill="" data-darkreader-inline-stroke="" clip-path="url(#shape-mask-2-1586050413741)"></ellipse></svg></div></div></div></section><section data-id="93de4201f01f71c3735266f7f64c6019"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 11.5px; height: auto;" data-block-id="2dbd71151b81fd3d63dadbc7c8b2ce53">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+        <h2>Why use them?</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 356.472px; left: 29.7955px; top: 199px;" data-name="text-b6dade" data-block-id="cfe596f57b0e496474add40e7531de31">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 200%; text-align: left;">
+        <p>Parallel</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 356.472px; left: 29.7955px; top: 417px;" data-name="text-6ae0d1" data-block-id="7831ec68b8b650afef1fee25f5797b6f">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 200%; text-align: left;">
+        <p>Low latency</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 376.836px; top: 238px;" data-name="line-dae884" data-block-id="44e9c8fff242c6a349931479ebf288c0">
+    <div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="144" data-line-y2="0" data-line-color="#555555" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 13;" data-line-width="12px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="144" height="1" viewbox="0 0 144 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="135" y2="0"></line><line class="line-element" stroke="#555555" stroke-width="12" x1="0" y1="0" x2="135" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#555555" stroke-width="12" transform="translate(135,0) rotate(90)" d="M 27 27 L 0 0 L -27 27"></path></svg></div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 376.836px; top: 456px;" data-block-id="5af335c5e5e7ccb7043402bd700af1ce" data-name="line-dd9581">
+    <div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="144" data-line-y2="0" data-line-color="#555555" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 14;" data-line-width="12px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="144" height="1" viewbox="0 0 144 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="135" y2="0"></line><line class="line-element" stroke="#555555" stroke-width="12" x1="0" y1="0" x2="135" y2="0"></line><path style="fill: rgba(0,0,0,0);" stroke="#555555" stroke-width="12" transform="translate(135,0) rotate(90)" d="M 27 27 L 0 0 L -27 27"></path></svg></div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 568.279px; top: 175.5px;" data-block-id="8176ffa6d645fb5d7cd06212567dc01b" data-name="text-1fe9a9">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 160%; text-align: left;">
+        <p>Scalable performance</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 361.926px; left: 568.279px; top: 387.5px;" data-block-id="7464facbeb6d0fe8d87606c78318768b" data-name="text-b18ec4">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 160%; text-align: left;">
+        <p>Real-time</p>
+
+        <p>signal processing</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 123.573px; height: 123.573px; left: 818.214px; top: 288.214px; min-width: 1px; min-height: 1px;" data-name="image-aa3508" data-block-id="f78bc4cdccc28735c3a3dc35b37dc1e9">
+    <div class="sl-block-content" style="z-index: 17;" data-inline-svg="true">
+<img style="" data-natural-width="24" data-natural-height="24" data-lazy-loaded="" data-src="ms-thesis-defense/3319f08fd80c19d5e59dfedd28a1743a.svg"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" preserveaspectratio="xMidYMid meet">
+            <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" style="--darkreader-inline-fill:none;" data-darkreader-inline-fill=""></path>
+            <path fill="#329900" d="M13.12 2.06L7.58 7.6c-.37.37-.58.88-.58 1.41V19c0 1.1.9 2 2 2h9c.8 0 1.52-.48 1.84-1.21l3.26-7.61C23.94 10.2 22.49 8 20.34 8h-5.65l.95-4.58c.1-.5-.05-1.01-.41-1.37-.59-.58-1.53-.58-2.11.01zM3 21c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2s-2 .9-2 2v8c0 1.1.9 2 2 2z" style="--darkreader-inline-fill:#b5ff85;" data-darkreader-inline-fill=""></path>
+        </svg>
+</div>
+</div></section></section><section class="stack" data-id="cd0d84e58cb92a4066af582621f52221"><section data-id="8873177c879a1d4b587ec09a74eb4a65"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 116px; height: auto;" data-block-id="877b31214c7e07eabda6cf80da47e651"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Why Doesn't Everybody use SoC FPGAs?</h1>
+</div></div></section><section data-id="c50fd00bd16ba35ba255f48f78aef5d9"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 116.5px; height: auto;" data-block-id="8f5c53d9db17391842b4dd880b01fa04">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+        <h2>Development is Hard</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 688.608px; left: 40.1711px; top: 303.5px; height: auto;" data-block-id="984513cc5a6570816894fc4315462c0e">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.95;" data-has-line-height="">
+        <ul>
+            <li><span style="font-size:1.4em">Low-level</span></li>
+            <li><span style="font-size:1.4em">Hardware <em>and </em>software</span></li>
+            <li><span style="font-size:1.4em">Unfamiliar programming paradigm</span></li>
+        </ul>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 124px; height: 124px; left: 800px; top: 303.5px; min-width: 1px; min-height: 1px;" data-name="image-f95610" data-block-id="682155c471c10cdfc6ebc13cab42f5b9">
+    <div class="sl-block-content" style="z-index: 13;" data-inline-svg="true">
+<img style="" data-natural-width="24" data-natural-height="24" data-lazy-loaded="" data-src="ms-thesis-defense/2ad1572c965d019d909850e0edd0b9ac.svg"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" preserveaspectratio="xMidYMid meet">
+            <path d="M0 0h24v24H0V0z" fill="none" style="--darkreader-inline-fill:none;" data-darkreader-inline-fill=""></path>
+            <path fill="#003399" d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-.22-13h-.06c-.4 0-.72.32-.72.72v4.72c0 .35.18.68.49.86l4.15 2.49c.34.2.78.1.98-.24.21-.34.1-.79-.25-.99l-3.87-2.3V7.72c0-.4-.32-.72-.72-.72z" style="--darkreader-inline-fill:#85cdff;" data-darkreader-inline-fill=""></path>
+        </svg>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 123.573px; height: 123.573px; left: 800px; top: 459.927px; min-width: 1px; min-height: 1px;" data-name="image-3928ff" data-block-id="945f75dac3ed4b7ce17054f65ed03446">
+    <div class="sl-block-content" style="z-index: 14;" data-inline-svg="true">
+<img style="" data-natural-width="24" data-natural-height="24" data-lazy-loaded="" data-src="ms-thesis-defense/f2c664873b1bfe68b1689e764d185e80.svg"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" preserveaspectratio="xMidYMid meet">
+            <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" style="--darkreader-inline-fill:none;" data-darkreader-inline-fill=""></path>
+            <path fill="#990032" d="M10.88 21.94l5.53-5.54c.37-.37.58-.88.58-1.41V5c0-1.1-.9-2-2-2H6c-.8 0-1.52.48-1.83 1.21L.91 11.82C.06 13.8 1.51 16 3.66 16h5.65l-.95 4.58c-.1.5.05 1.01.41 1.37.59.58 1.53.58 2.11-.01zM21 3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2s2-.9 2-2V5c0-1.1-.9-2-2-2z" style="--darkreader-inline-fill:#ff85b5;" data-darkreader-inline-fill=""></path>
+        </svg>
+</div>
+</div></section></section><section class="stack" data-id="447c4e4fed2d7ec9cd5fca4ff6da21e2"><section data-id="8bdae9813df5351480285433e82c3396"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 194px; height: auto;" data-block-id="dafb4c8dac3eaf84cf924712d64f796a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Development Framework</h1>
+</div></div></section><section data-id="0a53a5b783f73c912ab3956439d6e012"><div class="sl-block" data-block-type="text" style="width: 610px; left: 175px; top: 72.8332px; height: auto;" data-block-id="537b8b4fbc52bd8cefd0d2dd955841bc"><div class="sl-block-content" data-placeholder-tag="h1" style="text-align: left; z-index: 10;" data-placeholder-text="Text">
+<h1 style="text-align: center;">Overview</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 264.085px;" data-name="text-1d6f3d" data-block-id="238590e2d507ca4574f169e475b4bb99"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 170%;">
+<p>graphical programming, automation</p>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 480px; top: 373.251px;" data-name="line-dae884" data-block-id="591b8eb0a87133482c498071f267588a">
+    <div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="0" data-line-y2="154.44860372838212" data-line-color="#555555" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 12;" data-line-width="12px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="154.44860372838212" viewbox="0 0 1 154.44860372838212"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="0" x2="0" y2="145.44860372838212"></line><line class="line-element" stroke="#555555" stroke-width="12" x1="0" y1="0" x2="0" y2="145.44860372838212"></line><path style="fill: rgba(0,0,0,0);" stroke="#555555" stroke-width="12" transform="translate(0,145.44860372838212) rotate(180)" d="M 27 27 L 0 0 L -27 27"></path></svg></div>
+</div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-3a7893" data-block-id="0ade856ae5e790510a15460274364966" style="width: auto; height: auto;"><div class="sl-block-content sl-block-group-content" style="transform-origin: 478.951px 563.284px 0px; z-index: 13;">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 640.683px; left: 88.2614px; top: 548.589px;" data-block-id="1a6394420ecf845037d4c0fbe0d99ac5" data-name="text-c4fab1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 170%;">
+<p>easier, faster, more accessible</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 123.573px; height: 123.573px; left: 746.068px; top: 501.497px; min-width: 1px; min-height: 1px;" data-block-id="db951d3ee4a03927ea3ed2e547e8509e" data-name="image-138334">
+    <div class="sl-block-content" style="z-index: 14;" data-inline-svg="true">
+<img style="" data-natural-width="24" data-natural-height="24" data-lazy-loaded="" data-src="ms-thesis-defense/3319f08fd80c19d5e59dfedd28a1743a.svg"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewbox="0 0 24 24" width="24" preserveaspectratio="xMidYMid meet">
+            <path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none" style="--darkreader-inline-fill:none;" data-darkreader-inline-fill=""></path>
+            <path fill="#329900" d="M13.12 2.06L7.58 7.6c-.37.37-.58.88-.58 1.41V19c0 1.1.9 2 2 2h9c.8 0 1.52-.48 1.84-1.21l3.26-7.61C23.94 10.2 22.49 8 20.34 8h-5.65l.95-4.58c.1-.5-.05-1.01-.41-1.37-.59-.58-1.53-.58-2.11.01zM3 21c1.1 0 2-.9 2-2v-8c0-1.1-.9-2-2-2s-2 .9-2 2v8c0 1.1.9 2 2 2z" style="--darkreader-inline-fill:#b5ff85;" data-darkreader-inline-fill=""></path>
+        </svg>
+</div>
+</div>
+</div></div></section><section data-id="e7bf3a5932ed02fccb03983568fcae82" data-auto-animate="" data-background-size="contain" data-background-video="ms-thesis-defense/6be175faab9e14eb43b8f62cd10889e2.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1299856/ukFycqHg/autogen_overview_thumb_00001.jpg" data-background-media-id="7232875"></section><section data-id="af235af6b34cc03de07b25899124e97f"><div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 0px;" data-name="text-6c0e02" data-block-id="0658b4422f3fead23bffa3b60e1ce493"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Development Flow</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 854.203px; height: 583px; left: 52.8985px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-3f8ae5" data-block-id="c784bcbd6a1ee24228fbcfebecd03ffb"><div class="sl-block-content fragment fade-out" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="1978" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/d80848a3892493242cef84bceaf12d34.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 854.203px; height: 583px; left: 52.8985px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-c2d7ff" data-block-id="fe79a717637f13623b33599c0e526c64"><div class="sl-block-style" style="z-index: 12; transform: rotate(0deg);"><div class="sl-block-content fragment current-visible" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="1978" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/aca7f5dbbe072ccbb8a3bf6b24820c6d.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 854.203px; height: 583px; left: 52.8985px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-aaa150" data-block-id="0c4ffd6aeca9a3cda942830ad9f80f39"><div class="sl-block-content fragment current-visible" style="z-index: 13;" data-fragment-index="1"><img style="" data-natural-width="1978" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/46fb45a4879c945533ce17fcd07e2791.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 854.203px; height: 583px; left: 52.8985px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-c003a8" data-block-id="5c3831eefcf78ee00a25a5d0badaba20"><div class="sl-block-content fragment current-visible" style="z-index: 14;" data-fragment-index="2"><img style="" data-natural-width="1978" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/1f62ff61f2b73854e1cd5a7c29853d21.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 854.203px; height: 583px; left: 52.8985px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-3bc7f4" data-block-id="77a9ab83131d0aff9c554f504b652fc1"><div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="3"><img style="" data-natural-width="1978" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/89ed0d369703351711266d0c74785772.png"></div></div></section><section data-id="7decf7aa3a782080bc63984607ba4a30"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="56b49cc1ebe055ae12ddba37b48e857d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Simulink Models</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 802.381px; height: 583px; left: 78.8095px; top: 117px; min-width: 1px; min-height: 1px;" data-block-id="20815bd5078ae5b03f1ae0a8bb48a6b2"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1858" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/8382e607c2c573ff910d2466e7749a9b.png"></div></div></section><section data-id="9b9576f22438ee6d8eaba59500d991fa"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="cd995502d2cbec6900e80341e800e44b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 15; font-size: 90%;">
+<h2>Autogen Flow</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="image" style="width: 884px; height: 612.314px; left: 38px; top: 87.686px; min-width: 1px; min-height: 1px;" data-name="image-febe5f" data-block-id="1a43d39afbbca5e907c829388b88aca6"><div class="sl-block-content fragment fade-out" style="z-index: 10;" data-fragment-index="0"><img style="" data-natural-width="1949" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/9261533257b8bf15134e6519555de764.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 883.991px; height: 612.308px; left: 37.556px; top: 87.692px; min-width: 1px; min-height: 1px;" data-name="image-a8cf3f" data-block-id="4997d50acb94ad9a89a5511402e53477"><div class="sl-block-content fragment current-visible" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="1949" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/3fe626ea8f80a80c39afba1b16a971ac.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 883.991px; height: 612.308px; left: 37.556px; top: 87.686px; min-width: 1px; min-height: 1px;" data-name="image-c593c2" data-block-id="daa4e70f5a93d0c7b6a26b2b6256e0ac"><div class="sl-block-content fragment current-visible" style="z-index: 12;" data-fragment-index="1"><img style="" data-natural-width="1949" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/c2b28ba5d689c7c43bada80cba34bd6c.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 883.991px; height: 612.308px; left: 38.009px; top: 87.686px; min-width: 1px; min-height: 1px;" data-name="image-a5b456" data-block-id="c17dd1e8c8d755c207201e2cac81082d"><div class="sl-block-content fragment current-visible" style="z-index: 13;" data-fragment-index="2"><img style="" data-natural-width="1949" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/3ae87fc82ec85ff3a5a5761476321961.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 884.444px; height: 612.308px; left: 37.556px; top: 87.686px; min-width: 1px; min-height: 1px;" data-block-id="188da9df1b935c726796d3f757b28dad" data-name="image-d39727"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="3"><img style="" data-natural-width="1950" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/f0c8390d57252a3c6a71e9d8b692276e.png"></div></div></section><section data-id="d5f786832931fe460479104b49dfa005" class="no-fragment-ease"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="cb33c552c8655fef3e71d9ae5e4cb092"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; font-size: 80%;">
+<h2>Dataplane Configuration</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 621.5px; height: 598px; left: 18.5px; top: 102px;" data-name="code-47d0e0" data-block-id="175e661a3568890fffc3b9baf317a793"><div class="sl-block-content fragment fade-out" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 10; border-width: 1px; font-size: 160%;" data-code-wrap="true" data-fragment-index="0"><pre class="json"><code data-line-numbers="2-44" data-fragment-index="0">{
+  "avalon_memorymapped": {
+    "register": [
+      {
+        "data_type": {
+          "fractional_bits": 7,
+          "signed": false,
+          "type": "ufix8_En7",
+          "width": 8
+        },
+        "default_value": 0.5,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "wet_dry_mix",
+        "reg_num": 2
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "default_value": 0,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "bypass",
+        "reg_num": 0
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix6",
+          "width": 6
+        },
+        "default_value": 32,
+        "max_value": 32,
+        "min_value": 0,
+        "name": "bits",
+        "reg_num": 1
+      }
+    ]
+  },
+  "avalon_memorymapped_flag": 1,
+  "avalon_sink": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_sink_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_sink_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_error"
+      }
+    ]
+  },
+  "avalon_sink_flag": 1,
+  "avalon_source": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_source_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_source_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_error"
+      }
+    ]
+  },
+  "avalon_source_flag": 1,
+  "clocks": {
+    "sample_frequency_Hz": 48000,
+    "sample_period_seconds": 2.0833333333333333e-05,
+    "system_frequency_Hz": 98304000.0,
+    "system_period_seconds": 1.0172526041666666e-08
+  },
+  "conduit_input": [],
+  "conduit_input_flag": 0,
+  "conduit_output": [],
+  "conduit_output_flag": 0,
+  "entity": "BC_dataplane",
+  "linux_device_name": "bitcrusher",
+  "linux_device_version": "18.0",
+  "model_abbreviation": "BC",
+  "model_name": "bitcrusher"
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 621.5px; height: 598px; left: 18.5px; top: 102px;" data-block-id="83e973ffb1c268a69165e4ec858e100b" data-name="code-6afd81"><div class="sl-block-content fragment current-visible" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 12; border-width: 1px; font-size: 160%;" data-code-wrap="true" data-fragment-index="0"><pre class="json"><code data-line-numbers="87-126" data-fragment-index="0">{
+  "avalon_memorymapped": {
+    "register": [
+      {
+        "data_type": {
+          "fractional_bits": 7,
+          "signed": false,
+          "type": "ufix8_En7",
+          "width": 8
+        },
+        "default_value": 0.5,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "wet_dry_mix",
+        "reg_num": 2
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "default_value": 0,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "bypass",
+        "reg_num": 0
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix6",
+          "width": 6
+        },
+        "default_value": 32,
+        "max_value": 32,
+        "min_value": 0,
+        "name": "bits",
+        "reg_num": 1
+      }
+    ]
+  },
+  "avalon_memorymapped_flag": 1,
+  "avalon_sink": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_sink_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_sink_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_error"
+      }
+    ]
+  },
+  "avalon_sink_flag": 1,
+  "avalon_source": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_source_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_source_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_error"
+      }
+    ]
+  },
+  "avalon_source_flag": 1,
+  "clocks": {
+    "sample_frequency_Hz": 48000,
+    "sample_period_seconds": 2.0833333333333333e-05,
+    "system_frequency_Hz": 98304000.0,
+    "system_period_seconds": 1.0172526041666666e-08
+  },
+  "conduit_input": [],
+  "conduit_input_flag": 0,
+  "conduit_output": [],
+  "conduit_output_flag": 0,
+  "entity": "BC_dataplane",
+  "linux_device_name": "bitcrusher",
+  "linux_device_version": "18.0",
+  "model_abbreviation": "BC",
+  "model_name": "bitcrusher"
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 621.5px; height: 598px; left: 18.5px; top: 102px;" data-block-id="d16c08a9dbc8af26142c964e37189be9" data-name="code-a2e913"><div class="sl-block-content fragment current-visible" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 13; border-width: 1px; font-size: 160%;" data-code-wrap="true" data-fragment-index="1"><pre class="json"><code data-line-numbers="128-133" data-fragment-index="0">{
+  "avalon_memorymapped": {
+    "register": [
+      {
+        "data_type": {
+          "fractional_bits": 7,
+          "signed": false,
+          "type": "ufix8_En7",
+          "width": 8
+        },
+        "default_value": 0.5,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "wet_dry_mix",
+        "reg_num": 2
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "default_value": 0,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "bypass",
+        "reg_num": 0
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix6",
+          "width": 6
+        },
+        "default_value": 32,
+        "max_value": 32,
+        "min_value": 0,
+        "name": "bits",
+        "reg_num": 1
+      }
+    ]
+  },
+  "avalon_memorymapped_flag": 1,
+  "avalon_sink": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_sink_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_sink_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_error"
+      }
+    ]
+  },
+  "avalon_sink_flag": 1,
+  "avalon_source": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_source_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_source_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_error"
+      }
+    ]
+  },
+  "avalon_source_flag": 1,
+  "clocks": {
+    "sample_frequency_Hz": 48000,
+    "sample_period_seconds": 2.0833333333333333e-05,
+    "system_frequency_Hz": 98304000.0,
+    "system_period_seconds": 1.0172526041666666e-08
+  },
+  "conduit_input": [],
+  "conduit_input_flag": 0,
+  "conduit_output": [],
+  "conduit_output_flag": 0,
+  "entity": "BC_dataplane",
+  "linux_device_name": "bitcrusher",
+  "linux_device_version": "18.0",
+  "model_abbreviation": "BC",
+  "model_name": "bitcrusher"
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 360px;" data-name="text-10ff65" data-block-id="d93b38eb0d7febb0946c48e09e2db413"><div class="sl-block-content fragment fade-out" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 200%;" data-fragment-index="0">
+<p><span style="font-size:1.0em">registers</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 323px;" data-block-id="b970aad976ca05e9c9f692419c5a62ce" data-name="text-cadc4f"><div class="sl-block-content fragment current-visible" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 200%;" data-fragment-index="0">
+<p>streaming interfaces</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 362px;" data-block-id="011a0cb31c0b0f752fa4d985f953a9b5" data-name="text-28ac60"><div class="sl-block-content fragment current-visible" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 200%;" data-fragment-index="1">
+<p>clocks</p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 621.5px; height: 598px; left: 18.5px; top: 102px;" data-block-id="b26648b1c9e257649048640e41ab53da" data-name="code-85486f"><div class="sl-block-content fragment" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 17; border-width: 1px; font-size: 160%;" data-code-wrap="true" data-fragment-index="2"><pre class="json"><code data-line-numbers="134-137" data-fragment-index="0">{
+  "avalon_memorymapped": {
+    "register": [
+      {
+        "data_type": {
+          "fractional_bits": 7,
+          "signed": false,
+          "type": "ufix8_En7",
+          "width": 8
+        },
+        "default_value": 0.5,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "wet_dry_mix",
+        "reg_num": 2
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "default_value": 0,
+        "max_value": 1,
+        "min_value": 0,
+        "name": "bypass",
+        "reg_num": 0
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix6",
+          "width": 6
+        },
+        "default_value": 32,
+        "max_value": 32,
+        "min_value": 0,
+        "name": "bits",
+        "reg_num": 1
+      }
+    ]
+  },
+  "avalon_memorymapped_flag": 1,
+  "avalon_sink": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_sink_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_sink_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_sink_error"
+      }
+    ]
+  },
+  "avalon_sink_flag": 1,
+  "avalon_source": {
+    "signal": [
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "boolean",
+          "width": 1
+        },
+        "name": "avalon_source_valid"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 28,
+          "signed": true,
+          "type": "sfix32_En28",
+          "width": 32
+        },
+        "name": "avalon_source_data"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_channel"
+      },
+      {
+        "data_type": {
+          "fractional_bits": 0,
+          "signed": false,
+          "type": "ufix2",
+          "width": 2
+        },
+        "name": "avalon_source_error"
+      }
+    ]
+  },
+  "avalon_source_flag": 1,
+  "clocks": {
+    "sample_frequency_Hz": 48000,
+    "sample_period_seconds": 2.0833333333333333e-05,
+    "system_frequency_Hz": 98304000.0,
+    "system_period_seconds": 1.0172526041666666e-08
+  },
+  "conduit_input": [],
+  "conduit_input_flag": 0,
+  "conduit_output": [],
+  "conduit_output_flag": 0,
+  "entity": "BC_dataplane",
+  "linux_device_name": "bitcrusher",
+  "linux_device_version": "18.0",
+  "model_abbreviation": "BC",
+  "model_name": "bitcrusher"
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 342px;" data-block-id="c23715c4c9c47b3ac0504a2b340824fc" data-name="text-8c5ceb"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; font-size: 200%;" data-fragment-index="2">
+<p>external signals</p>
+</div></div></section><section data-id="4a57bca2492bd50d30844069a239343f"><div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 0px; height: auto;" data-block-id="9ff3e083b5acda9d2f2a417379e76d2b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; font-size: 80%;">
+<h2>GUI Configuration</h2>
+</div></div>
+<div class="sl-block" data-block-type="code" style="width: 623px; height: 606px; left: 17px; top: 94px;" data-name="code-85c575" data-block-id="7f623717bbd7089cc61f23d575d0385b"><div class="sl-block-content notranslate fragment fade-out" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 11; font-size: 200%;" data-fragment-index="0"><pre class="json"><code data-line-numbers="3-6">{
+  "name": "bitcrusher",
+  "pages": [
+    {
+      "name": "Main",
+      "panels": [
+        {
+          "controls": [
+            {
+              "dataType": "u6,0",
+              "defaultValue": 32,
+              "linkerName": "slider1bitcrusher",
+              "max": 32,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Bits",
+              "type": "slider",
+              "units": "bits"
+            },
+            {
+              "dataType": "boolean",
+              "defaultValue": 0,
+              "linkerName": "toggle1bitcrusher",
+              "max": 1,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Bypass",
+              "type": "toggle",
+              "units": "bypass"
+            },
+            {
+              "dataType": "u8,7",
+              "defaultValue": 0.5,
+              "linkerName": "slider2bitcrusher",
+              "max": 1,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Wet Dry Mix",
+              "type": "slider",
+              "units": "ratio"
+            }
+          ],
+          "name": "Bitcrusher"
+        }
+      ]
+    }
+  ]
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 623px; height: 606px; left: 17px; top: 94px;" data-block-id="2fdf99c35480ebebd7e6d5a511e3efc6" data-name="code-667849"><div class="sl-block-content notranslate fragment current-visible" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 12; font-size: 200%;" data-fragment-index="0"><pre class="json"><code data-line-numbers="6-8">{
+  "name": "bitcrusher",
+  "pages": [
+    {
+      "name": "Main",
+      "panels": [
+        {
+          "controls": [
+            {
+              "dataType": "u6,0",
+              "defaultValue": 32,
+              "linkerName": "slider1bitcrusher",
+              "max": 32,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Bits",
+              "type": "slider",
+              "units": "bits"
+            },
+            {
+              "dataType": "boolean",
+              "defaultValue": 0,
+              "linkerName": "toggle1bitcrusher",
+              "max": 1,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Bypass",
+              "type": "toggle",
+              "units": "bypass"
+            },
+            {
+              "dataType": "u8,7",
+              "defaultValue": 0.5,
+              "linkerName": "slider2bitcrusher",
+              "max": 1,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Wet Dry Mix",
+              "type": "slider",
+              "units": "ratio"
+            }
+          ],
+          "name": "Bitcrusher"
+        }
+      ]
+    }
+  ]
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 623px; height: 606px; left: 17px; top: 94px;" data-block-id="b6f66e873fee90ee3763086551f7c613" data-name="code-fc114b"><div class="sl-block-content notranslate fragment" data-highlight-theme="tomorrow" data-code-frame="osx" style="z-index: 13; font-size: 200%;" data-fragment-index="1"><pre class="json"><code data-line-numbers="8-20">{
+  "name": "bitcrusher",
+  "pages": [
+    {
+      "name": "Main",
+      "panels": [
+        {
+          "controls": [
+            {
+              "dataType": "u6,0",
+              "defaultValue": 32,
+              "linkerName": "slider1bitcrusher",
+              "max": 32,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Bits",
+              "type": "slider",
+              "units": "bits"
+            },
+            {
+              "dataType": "boolean",
+              "defaultValue": 0,
+              "linkerName": "toggle1bitcrusher",
+              "max": 1,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Bypass",
+              "type": "toggle",
+              "units": "bypass"
+            },
+            {
+              "dataType": "u8,7",
+              "defaultValue": 0.5,
+              "linkerName": "slider2bitcrusher",
+              "max": 1,
+              "min": 0,
+              "module": "bitcrusher",
+              "style": "default",
+              "title": "Wet Dry Mix",
+              "type": "slider",
+              "units": "ratio"
+            }
+          ],
+          "name": "Bitcrusher"
+        }
+      ]
+    }
+  ]
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 358px;" data-name="text-325059" data-block-id="33dd605e8923e741e07c74a6af913942"><div class="sl-block-content fragment fade-out" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 200%;" data-fragment-index="0">
+<p>pages</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 358px;" data-block-id="fa4ca50d75c63213586d8e2efaca2daa" data-name="text-1806f3"><div class="sl-block-content fragment current-visible" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 200%;" data-fragment-index="0">
+<p>panels</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 358px;" data-block-id="3c6fe0e5687faf6a6818759a33ef886e" data-name="text-1c09da"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; font-size: 200%;" data-fragment-index="1">
+<p>controls</p>
+</div></div></section><section data-id="6e7ff31f4719c0498e18b7dc4d1d9423" data-background-video-muted="true" data-background-video="ms-thesis-defense/6bf79f62202b457a5109eacca69cfb63.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1299856/ljweDkIE/simulink_autogen_demo_thumb_00001.jpg" data-background-media-id="7236685" data-background-size="contain"></section><section data-id="727a1d6d32472139e1e345a04889024f" data-auto-animate=""><div class="sl-block" data-block-type="text" style="width: 946px; left: 7px; top: 0px; height: auto;" data-block-id="9f705fce1423b042aa3a5e50223fcb5b" data-name="text-12d583"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>App Communication</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 629.111px; height: 583.31px; left: 165.445px; top: 116.69px; min-width: 1px; min-height: 1px;" data-block-id="4a677422a8e3add4f1e1c06c4152ddf9" data-name="image-5ea5c5"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1456" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/dc62c1c616e0fcc326a59d0aad703481.png"></div></div></section><section data-id="7cdb132bc1d435861df6b9836a415306" data-background-video-muted="true" data-background-size="contain" data-background-video="ms-thesis-defense/28d841c4ba5027c7cef8e49a5de8e571.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1299856/XIpgpH7G/gui_autogen_demo_thumb_00001.jpg" data-background-media-id="7236489"><div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 320px; top: 632px;" data-name="text-e6775b" data-block-id="38ac0be6ed49ff29644a26663e92130b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; background-color: rgba(0, 0, 0, 0); text-align: center;">
+<h3>GUI Autogen</h3>
+</div></div></section></section><section class="stack" data-id="2f2e8dfadb938debd8acd621bc0d1b23"><section data-id="7b08429d8d7d3f811c4b8d6d4898dca6"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 194px; height: auto;" data-block-id="ca09ab96c247390abfe354df2ddb24a6"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Sound Effects Processor</h1>
+</div></div></section><section data-id="4bc845af18e1b1c2bd1cf0d9cf31aa94"><div class="sl-block" data-block-type="image" style="width: 480px; height: 370.732px; left: 480px; top: 329.268px; min-width: 1px; min-height: 1px;" data-name="image-5eb2ab" data-block-id="54aa2e8f7819f6446af7f4f56e0d2a59"><div class="sl-block-content" style="z-index: 15;"><img style="left: 0px; top: -8px; width: 480px; height: 379px;" data-natural-width="1711" data-natural-height="1350" data-lazy-loaded="" data-crop-x="0" data-crop-y="0.021108" data-crop-width="1" data-crop-height="0.978892" data-src="ms-thesis-defense/015d498218e976166506c8fdbd094e93.jpg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 449.604px; height: 306.858px; left: 1px; top: 393.142px; min-width: 1px; min-height: 1px;" data-name="image-163f02" data-block-id="17665e67211b0d47d58a72163a886bbd"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1978" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/89ed0d369703351711266d0c74785772.png"></div></div>
+<div class="sl-block" data-block-type="text" style="width: 480px; left: 1px; top: 89px; height: auto;" data-block-id="003a2c983f8a53e061a3b01968b91558"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 140%; line-height: 1.69;" data-has-line-height="">
+<ul>
+	<li><span style="font-size:1.4em">Bitcrusher</span></li>
+	<li><span style="font-size:1.4em">Echo</span></li>
+	<li><span style="font-size:1.4em">Flanger</span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 480px; left: 1px; top: 0px;" data-name="text-dcd7ef" data-block-id="e52ce66b2a137b9ac059afc2aad0419f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 130%;">
+<h3>Sound Effects</h3>
+</div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 10.5px; top: 89px;" data-name="line-dd6f31" data-block-id="4eab0327271c3399cda0caaf514f003c"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="459" data-line-y2="0" data-line-color="#777777" data-line-start-type="none" data-line-end-type="none" style="z-index: 13;" data-line-width="3px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="459" height="1" viewbox="0 0 459 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0.5" y1="0.5" x2="459.5" y2="0.5"></line><line class="line-element" stroke="#777777" stroke-width="3" x1="0.5" y1="0.5" x2="459.5" y2="0.5"></line></svg></div></div>
+<div class="sl-block" data-block-type="image" style="width: 363.029px; height: 518px; left: 596.971px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-926c9d" data-block-id="65cf12bc49b04da64e59362ccf5425e0"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="677" data-natural-height="966" data-lazy-loaded="" data-src="ms-thesis-defense/4e5d252cb2b57224af4b5d2da14b70ec.png"></div></div></section><section data-id="2bf7cd4cf563a91f8442047173347c4a"><div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 0px; height: auto;" data-block-id="a9a321cd8c35ce7dc7aa35e1157c9f9f">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+        <h2>Bitcrusher</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 405.333px; left: 0px; top: 117px; min-width: 1px; min-height: 1px;" data-block-id="965897d395f531be4b3957edd9d9c0db">
+    <div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1575" data-natural-height="665" data-lazy-loaded="" data-src="ms-thesis-defense/c56035f0f644184a264f5cb159b4e8f2.png"></div>
+</div>
+<div class="s1-block" style="position: absolute; left: 100px; bottom: 10px">
+    <p>
+        original
+    </p>
+    <audio controls="" preload="auto" title="original.wav" data-lazy-loaded="" data-paused-by-reveal="" data-src="ms-thesis-defense/original.wav"></audio>
+</div>
+<div class="s1-block" style="position: absolute; left: 500px; bottom: 10px">
+    <p>
+      bitcrusher
+    </p>
+    <audio controls="" preload="auto" title="bitcrusher.wav" data-lazy-loaded="" data-paused-by-reveal="" data-src="ms-thesis-defense/bitcrusher.wav"></audio>
+</div>
+</section>
+<section>
+  <iframe  style="width: 100%; height: 100%" data-src="ms-thesis-defense/bitcrusher/webview.html"></iframe>
+</section>
+<section data-id="539fa1d6489934e5d28183463c203c2d"><div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 0px; height: auto;" data-block-id="4cd1209f7cd65a16fc366d93d19f607e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Echo</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 514.18px; left: 0px; top: 117px; min-width: 1px; min-height: 1px;" data-block-id="816d0ae888d304db4156308fa18d0854"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1615" data-natural-height="865" data-lazy-loaded="" data-src="ms-thesis-defense/6a2a6df60636be4ae6bdb0046e89acb1.png"></div></div>
+<div class="s1-block" style="position: absolute; left: 10px; bottom: 10px">
+    <p>
+        original
+    </p>
+    <audio controls="" preload="auto" title="original.wav" data-lazy-loaded="" data-paused-by-reveal="" data-src="ms-thesis-defense/original.wav"></audio>
+</div>
+<div class="s1-block" style="position: absolute; left: 300px; bottom: 10px">
+    <p>
+      echo
+    </p>
+    <audio controls="" preload="auto" title="echo.wav" data-lazy-loaded="" data-paused-by-reveal="" data-src="ms-thesis-defense/echo.wav"></audio>
+</div>
+</section>
+<section data-id="b963206297c7138c696e3e0f3a10540e"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="1f06890dc9a54fcdc90843d70f172724"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Circular Buffer</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 583px; height: 583px; left: 188.5px; top: 117px; min-width: 1px; min-height: 1px;" data-block-id="e6626b55170900e9192617b7dcf0888a"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="81" data-natural-height="81" data-src="ms-thesis-defense/0cbdac0e8b9031e07b1257c7a2e6cb8c.svg"></div></div></section>
+<section>
+  <iframe  style="width: 100%; height: 100%" data-src="ms-thesis-defense/echo/webview.html"></iframe>
+</section>
+<section data-id="1214c35fb67d4b8ba53e24521065deb0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="585428950a06b8eea2cd1312273d8741"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Flanger</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 754.152px; height: 474.523px; left: 0px; top: 155.477px; min-width: 1px; min-height: 1px;" data-block-id="8bf9e2cf241a902380ebf6b11b82a7b9"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1335" data-natural-height="840" data-lazy-loaded="" data-src="ms-thesis-defense/11dc5ab194cef7a4b7c429ef77fa7a4e.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 361px; height: 220.573px; left: 599px; top: 99.7135px; min-width: 1px; min-height: 1px;" data-name="image-bf2979" data-block-id="3eb401cacd2cd030770090a2d7a51361"><div class="sl-block-content" style="z-index: 12; border-width: 1px;"><img style="" data-natural-width="1599" data-natural-height="977" data-lazy-loaded="" data-src="ms-thesis-defense/d33c46eb4dc5c2557222017ba9ffce50.png"></div></div>
+<div class="s1-block" style="position: absolute; left: 700px; bottom: 100px; z-index:13">
+    <p>
+        original
+    </p>
+    <audio controls="" preload="auto" title="original.wav" data-lazy-loaded="" data-paused-by-reveal="" data-src="ms-thesis-defense/original.wav"></audio>
+</div>
+<div class="s1-block" style="position: absolute; left: 700px; bottom: 10px">
+    <p>
+      flanger
+    </p>
+    <audio controls="" preload="auto" title="flanger.wav" data-lazy-loaded="" data-paused-by-reveal="" data-src="ms-thesis-defense/flanger.wav"></audio>
+</div>
+</section>
+<section data-id="acc2c4a19dfd7931236b031ee8bba995"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 99.3482px; height: auto;" data-block-id="8d95332653f0d2846ebf135f2e0f593b"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Creating Sine Waves</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 325.605px; left: 0px; top: 275.047px; min-width: 1px; min-height: 1px;" data-block-id="664449a158d7e83e70182f4cc844f7fe"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1256" data-natural-height="426" data-src="ms-thesis-defense/aaf8b98d24eb5128563fe8668e482a87.png"></div></div></section>
+<section>
+  <iframe  style="width: 100%; height: 100%" data-src="ms-thesis-defense/flanger/webview.html"></iframe>
+</section>
+<section data-id="ce727d366703c914b8a518680cae30d0" data-background-size="contain" data-background-video="ms-thesis-defense/7853c61650a98eedb4fe312a321960f6.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1299856/Cpvf8ci0/sound_effects_demo_thumb_00001.jpg" data-background-media-id="7233040"></section></section><section class="stack" data-id="05f41c298d06f79a3d65ef791d07b4bd"><section data-id="b5487ac3b4c90da9fb12f89bd81559ed"><div class="sl-block" data-block-type="text" style="width: 906.059px; left: 26.9705px; top: 194px; height: auto;" data-block-id="f6de24c529e90f9d57c763cefa14e4ac"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui">
+<h1>Delay and Sum Beamformer</h1>
+</div></div></section><section data-id="a62a34114162b9e37ef91845ed8be703"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="74488e8128c8ec5fd80c100b3ad14d49"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Theory</h1>
+</div></div></section><section data-id="2fbef32a6a21fcf4b87866f0226e1c8b"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="89804c41fe04e13333269dcfc494c2db"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; background-color: rgba(0, 0, 0, 0);">
+<h2>Spatial Filtering</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 700px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-7f8b17" data-block-id="5f028b3f2ccfe866969344c1cd473a5f"><div class="sl-block-content fragment fade-out" data-inline-svg="false" style="z-index: 10;" data-fragment-index="0"><img style="" data-natural-width="960" data-natural-height="700" data-lazy-loaded="" data-src="ms-thesis-defense/4f20f90d5364ac641be36182619c50f1.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 700px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-55390a" data-block-id="dbe0b451451b13520f17bdafdc17cde8"><div class="sl-block-content fragment current-visible" style="z-index: 12;" data-inline-svg="false" data-fragment-index="0"><img style="" data-natural-width="960" data-natural-height="700" data-lazy-loaded="" data-src="ms-thesis-defense/4d3b4f7ba07d90bd0f0cc59d7812a3a2.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 700px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-6a36f3" data-block-id="b6599a944d5143d115bdaa1a4cb5972e"><div class="sl-block-content fragment current-visible" style="z-index: 13;" data-inline-svg="false" data-fragment-index="1"><img style="" data-natural-width="960" data-natural-height="700" data-lazy-loaded="" data-src="ms-thesis-defense/0862cc8ed841820ff74c9c892e1c598e.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 700px; left: 0px; top: 0px; min-width: 1px; min-height: 1px;" data-name="image-c3a5e8" data-block-id="ebacf3081d61affed6762500ac4a2dfe"><div class="sl-block-content fragment" style="z-index: 14;" data-inline-svg="false" data-fragment-index="2"><img style="" data-natural-width="960" data-natural-height="700" data-lazy-loaded="" data-src="ms-thesis-defense/7f57a92d0236f0c273de65de1fef12fb.svg"></div></div></section><section data-id="bf0db6d4657722c682bd591ecdba36d3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 0px; height: auto;" data-block-id="dabbe430161912f5ec40f1e6d0d8544c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Theory</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 484.835px; height: 323.223px; left: 475.165px; top: 117px; min-width: 1px; min-height: 1px;" data-name="image-8eb9df" data-block-id="11b36b14a998280685dbbdae4ab802c5"><div class="sl-block-content fragment semi-fade-out" data-inline-svg="false" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="3" data-natural-height="2" data-lazy-loaded="" data-src="ms-thesis-defense/8f11cdedcc1a47b65c2d073627c88b06.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 720px; height: 308.571px; left: 0px; top: 251.429px; min-width: 1px; min-height: 1px;" data-name="image-ae310d" data-block-id="8b8bc5a010434132bffeea31073b2479"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="7" data-natural-height="3" data-lazy-loaded="" data-src="ms-thesis-defense/6dcc9dabf4b4d727e12e7e1fd79cea0e.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 360px; top: 549px;" data-name="text-babecc" data-block-id="05c88c6954975f01324b9380807e4e5d"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 150%;" data-fragment-index="0">
+<p>\[\sum_{m=0}^{M-1} y_m(t - \Delta_m) = M \times y(t) \]</p>
+</div></div></section><section data-id="6103f8afa5beabbecacc2c63e5ca2872"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="19e5cd19b3858c6f9ab0ca097c087bde"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Linear Array</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 583px; height: 583px; left: 0px; top: 117px; min-width: 1px; min-height: 1px;" data-block-id="6f292747230c3692ac6855f99d0dfcc8"><div class="sl-block-content" style="z-index: 11;" data-inline-svg="false"><img style="" data-natural-width="3" data-natural-height="3" data-lazy-loaded="" data-src="ms-thesis-defense/3f1799666f605a2227f22103e2310017.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 377px; left: 333.967px; top: 165px;" data-name="text-f066f1" data-block-id="a44a37d15689679fec0f2cc4c11babbf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 150%;">
+<p>\[   \Delta_m  = \frac{\left(m - \frac{M - 1}{2} \right) d}{c} \sin{(az)} \]</p>
+</div></div>
+</section><section data-id="22ca22af95a69e6e1623253825b3fef7"><div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 0px; height: auto;" data-block-id="a81a5aa34217ccb1561c37d5b16a87bc"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Rectangular Array</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 648.148px; height: 540.123px; left: 221px; top: 89.877px; min-width: 1px; min-height: 1px;" data-block-id="8ac41f2b18781f592034aece74d3ab81"><div class="sl-block-content" style="z-index: 11;" data-inline-svg="false"><img style="" data-natural-width="6" data-natural-height="5" data-lazy-loaded="" data-src="ms-thesis-defense/6f53d30a3d816f6e0a7ea0b12a839f5b.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 933.796px; left: 26.204px; top: 620px;" data-name="text-899447" data-block-id="18d2abf25372de2dd273fafe9e5e9af2"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p>$$  \Delta_m = \frac{d}{c} \bigg( \left(m_y - \frac{M - 1}{2} \right) \sin{(az)} \cos{(el)} + \left(\frac{M - 1}{2} - m_z \right) \sin{(el)} \bigg) $$</p>
+</div></div></section><section data-id="6ec56a93dbe4e195d7c9b8df9b3f0d90"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="d6e16d3f47f113af406238034eda8f37"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Delay Interpolation</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 480px; height: 360px; left: 0px; top: 340px; min-width: 1px; min-height: 1px;" data-name="image-dd0804" data-block-id="4b28da80a92e0ff225e59fdb93d9ed3c"><div class="sl-block-content" data-inline-svg="false" style="z-index: 11;"><img style="" data-natural-width="980" data-natural-height="735" data-lazy-loaded="" data-src="ms-thesis-defense/b8346c39a032d2c0d0fc883ab5e32870.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 480px; height: 360px; left: 480px; top: 340px; min-width: 1px; min-height: 1px;" data-name="image-c32de1" data-block-id="eba55ef977f57768f35b37bec119cf2f"><div class="sl-block-content" style="z-index: 12;" data-inline-svg="false"><img style="" data-natural-width="980" data-natural-height="735" data-lazy-loaded="" data-src="ms-thesis-defense/7a9744b59184724f2863446bba449644.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 738.354px; left: 110.823px; top: 128.47px;" data-name="text-676ec1" data-block-id="e505218c71eaa7ae73d5dac77ad995fe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 150%; line-height: 1.69;" data-has-line-height="">
+<ul>
+	<li>Sampling \(\rightarrow\) quantized delays</li>
+	<li>Interpolate between samples</li>
+</ul>
+</div></div></section><section data-id="52bd5f00beb136f5808b0383de47f732"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 272px; height: auto;" data-block-id="c55c5e90e050dea5e7625c331c133378"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Implementation</h1>
+</div></div>
+</section><section data-id="9a9c646b03ad801c27c941fb40f0959b"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 122.207px; height: auto;" data-block-id="a4ad41f432626e4f1b0a0bdf7dbf03ca"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; font-size: 140%;">
+<h3>Implementation Overview</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 295.513px; left: 0px; top: 282.451px; min-width: 1px; min-height: 1px;" data-block-id="85b1b6dcbeb1432103faac2fbe113a13"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1725" data-natural-height="531" data-lazy-loaded="" data-src="ms-thesis-defense/c5e3da63a83e4ad1602a12fad0421080.png"></div></div></section>
+<section>
+  <iframe  style="width: 100%; height: 100%" data-src="ms-thesis-defense/beamformer/webview.html"></iframe>
+</section>
+<section data-id="57fd6414dc89596244ce4d28ff06f6f0"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 194px; height: auto;" data-block-id="2038c29ebefbeab04e09470723995d9a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Supporting Hardware</h1>
+</div></div></section><section data-id="f63c48232af03fa133d629cf684d8a10"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="0b2ad12ccc7ebe82dadf3803b7728f55"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>System Overview</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 590.702px; left: 0px; top: 109.298px; min-width: 1px; min-height: 1px;" data-block-id="8741ad060b49fe410f44836b648aab42"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="2194" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/03b6ca78a1ee214a975329b1928f8290.png"></div></div></section><section data-id="bc0a1df9d79a11d8a1fb581e6b0d5b77"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="02990a146d4039664664726ba223bcc3"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 13;">
+<h2>Mic Array</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 475.709px; height: 312.816px; left: 483.825px; top: 385.634px; min-width: 1px; min-height: 1px;" data-name="image-42614b" data-block-id="1d5b0ba8e45f7c055fdbb40dc88a2913"><div class="sl-block-content" style="z-index: 11;"><img style="left: -28px; top: -36px; width: 504px; height: 348px;" data-natural-width="1953" data-natural-height="1350" data-crop-x="0.056133" data-crop-y="0.102102" data-crop-width="0.943867" data-crop-height="0.897898" data-lazy-loaded="" data-src="ms-thesis-defense/e61d022315a5f1891caa8c061bbea740.jpg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 482.272px; height: 358.273px; left: 0px; top: 341.727px; min-width: 1px; min-height: 1px;" data-name="image-45f3c2" data-block-id="50d24c0fab026dcdda3dc195d12141f0"><div class="sl-block-content" style="z-index: 10;"><img style="left: -40px; top: -13px; width: 563px; height: 373px;" data-natural-width="2038" data-natural-height="1350" data-crop-x="0.070764" data-crop-y="0.033708" data-crop-width="0.856611" data-crop-height="0.960674" data-lazy-loaded="" data-src="ms-thesis-defense/fd28f32a1e2e60cbbe6577c8e4dc7884.jpg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 725.961px; height: 331.082px; left: 128.159px; top: 88.918px; min-width: 1px; min-height: 1px;" data-name="image-268129" data-block-id="561dfdde9ff67a27aeddd9eb406086d5"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="1320" data-natural-height="602" data-lazy-loaded="" data-src="ms-thesis-defense/842221f2a9ba776ad0e3bf0c193abdcd.png"></div></div></section><section data-id="e3ce19e6e451c65d82cd11686d1b79fc"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="41af92ff69f07822ebef0305e8b06743"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2>Daughter Card</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 846px; height: 583.002px; left: 57px; top: 116.998px; min-width: 1px; min-height: 1px;" data-name="image-693a26" data-block-id="b16d3617a3bfdce3670e957e7001ce05"><div class="sl-block-content fragment fade-out" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="1959" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/452543046995662ac99fe722e158edd4.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 635.918px; left: 0px; top: 32.041px; min-width: 1px; min-height: 1px;" data-block-id="df1809efc5f2495b546bce79b03d13d5" data-name="image-555820"><div class="sl-block-content fragment" style="z-index: 10;" data-fragment-index="0"><img style="" data-natural-width="2038" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/e983869e5f68d66b6a139918825d342f.jpg"></div></div></section><section data-id="cce92490c100f106980afdf639bc055f"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 194px; height: auto;" data-block-id="9a6bfc8577330fdc18b2fee811096d5a"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Beamforming Test</h1>
+</div></div></section><section data-id="6b3884da17015e35f7122ddbbc63b2e8" data-auto-animate=""><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="d8368406d016712e38ba219c86a04d32" data-name="text-317c62"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Test Setup</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 634.044px; height: 420px; left: 325.956px; top: 280px; min-width: 1px; min-height: 1px;" data-block-id="bd0eb2c8c3211ac4f06a330b27a80e5d" data-name="image-3ba435"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="2038" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/422a223f1483608e624cfb0cab79a13c.jpg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 806.4px; height: 190.441px; left: 80px; top: 97.78px; min-width: 1px; min-height: 1px;" data-name="image-1f5d47" data-block-id="d69f21b6cc7be07fcae65b9918d47eaf"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1084" data-natural-height="256" data-lazy-loaded="" data-src="ms-thesis-defense/1e14954db3f0a252678334739ac1058b.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 360px; left: 0px; top: 362px;" data-name="text-1b888d" data-block-id="f605663269adfa51cc418a223909b842"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 140%;">
+<ul>
+	<li>1 kHz and 10 kHz test tones</li>
+	<li>Steered array to 0° and 45°</li>
+</ul>
+</div></div></section><section data-id="de4a0144e529e8c037e0b589f32f66f7" data-background-image="ms-thesis-defense/54291579b1cdb3e3411655201de9b5a1.jpg" data-auto-animate=""><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="4cac7b3d9d644b294133f8839c944b8e" data-name="text-8ba856"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(255, 255, 255);">
+<h2>Test Setup</h2>
+</div></div></section><section data-id="3b655aa0283c3d732696bdd4895416a5"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 55.375px; height: auto;" data-block-id="68d3afc35ef29b061e2ad397c2575a0c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Results <span>—</span> 1 kHz</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 480px; height: 356.073px; left: 480px; top: 288.552px; min-width: 1px; min-height: 1px;" data-block-id="251e525b080b00a18d8b4b59ebfeefc0"><div class="sl-block-content" style="z-index: 12;" data-inline-svg="false"><img style="" data-natural-width="550" data-natural-height="408" data-lazy-loaded="" data-src="ms-thesis-defense/9fcc2b33a6033218c0ff705831142050.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 480px; height: 356.073px; left: 0px; top: 288.552px; min-width: 1px; min-height: 1px;" data-name="image-330926" data-block-id="0f6a463e8436f4a8179e421a5800053f"><div class="sl-block-content" style="z-index: 13;" data-inline-svg="false"><img style="" data-natural-width="550" data-natural-height="408" data-lazy-loaded="" data-src="ms-thesis-defense/e7e4e302ec133c0918c0ef9ac20bec9e.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 191.125px;" data-name="text-1b4053" data-block-id="4a4b31c1905315b9b8ef9754682a9866"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 140%;">
+<p>no difference in directivity \(\rightarrow\) no change in amplitude</p>
+</div></div></section><section data-id="c42aa17b9461d1e9d29093ac75d74658"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 55.375px; height: auto;" data-block-id="4450c1b5834d1a6c2d768c45150ef1c2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" dir="ui"><h2>Results <span>—</span> 10 kHz</h2></div></div>
+<div class="sl-block" data-block-type="image" style="width: 480px; height: 356.073px; left: 480px; top: 288.552px; min-width: 1px; min-height: 1px;" data-block-id="7487d1c92817695c67a37c44e16c1303"><div class="sl-block-content" style="z-index: 11;" data-inline-svg="false"><img style="" data-natural-width="550" data-natural-height="408" data-lazy-loaded="" data-src="ms-thesis-defense/53f0d9ed9772012996513832a762d062.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 480px; height: 356.073px; left: 0px; top: 288.552px; min-width: 1px; min-height: 1px;" data-name="image-330926" data-block-id="fe1d7f06fe144aec51d8829f723b723c"><div class="sl-block-content" style="z-index: 12;" data-inline-svg="false"><img style="" data-natural-width="550" data-natural-height="408" data-lazy-loaded="" data-src="ms-thesis-defense/ef375045ef8b629685f34e14153e50f3.svg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 191.125px;" data-name="text-1b4053" data-block-id="c263bdbdd1150e747ee482f4662488f6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 140%;">
+<p>large difference in directivity and amplitude</p>
+</div></div></section></section><section class="stack" data-id="b248f901900363ba8a7f43f80cae3f26"><section data-id="f6ca98e59619979370cea84aecce391d"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 272px;" data-name="text-5c74bd" data-block-id="74fbb4fe696d6b741857aed4397ae068"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h1>Conclusion</h1>
+</div></div></section><section data-id="71dd3800c7bb175c970c6ed0d7c9bc87"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 40px; height: auto;" data-block-id="131c76d0352c181a7b0ab9ab9ae13bef"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Acknowledgments</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 0px; top: 191.5px;" data-name="text-ebb51a" data-block-id="f59aa91e3aa7ca957aba6e75de95c34c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3>Committee</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 0px; top: 259.5px;" data-name="text-82ca92" data-block-id="5e65fb9f00a74d15b3aa3a0d6007999c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<ul>
+	<li>Ross Snider</li>
+	<li>Rob Maher</li>
+	<li>Brock LaMeres</li>
+	<li>Brad Whitaker</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 320px; top: 191.5px;" data-block-id="7253b67012bced9273685b78cbd81b48" data-name="text-ea6911"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<h3>Colleagues</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 320px; top: 259.5px;" data-block-id="dd78017f93b11ef98c34eb54b57b972d" data-name="text-0fb86c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<ul>
+	<li>Tyler Davis</li>
+	<li>Connor Dack</li>
+	<li>Dustin Sobrero</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 191.5px;" data-block-id="cc5cfc8e434b388be5dc0b568ccec91e" data-name="text-669cdf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;">
+<h3>Interns</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 640px; top: 259.5px;" data-block-id="5ccfd5577a86789e8982528528be80b6" data-name="text-9ec8ca"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<ul>
+	<li>Aaron Koenigsberg</li>
+	<li>Alex Salois</li>
+	<li>Bailey Galacci</li>
+	<li>Justin Williams</li>
+	<li>Josh Harthan</li>
+	<li>Josh Freund</li>
+	<li>Matt Blunt</li>
+  <li>Hezekiah Austin</li>
+  <li>James Eaton</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 320px; left: 160px; top: 447.5px;" data-block-id="1aac534c5e53c78ea497e4abccbd7645" data-name="text-195cdf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17;">
+<h3>Funding</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 619px; left: 10.5px; top: 515.5px;" data-block-id="97899fbfd70206401fef8df674e82d1f" data-name="text-90401c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+<ul>
+	<li>National Institutes of Health</li>
+	<li>College of Engineering Benjamin Fellowship</li>
+</ul>
+</div></div></section></section><section class="stack" data-id="2a95299fa1101e22276f2f37397e4ea2"><section data-id="b276abb27590fb87fddaf6c4b7c23309"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 0px; height: auto;" data-block-id="121018f3c9e29f0f2efd5e0660f1d44e">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; color: rgb(85, 85, 85);">
+        <h1>Questions?</h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 207.313px; height: 214px; left: 80px; top: 276px; min-width: 1px; min-height: 1px;" data-name="image-32bea9" data-block-id="8969d1128037e678d58860bb21b26547"><div class="sl-block-content" data-inline-svg="true" style="z-index: 11;">
+<img style="" data-natural-width="496" data-natural-height="512" data-lazy-loaded="" data-src="ms-thesis-defense/863cab6eb4225b5bcd7a4c520f23ce5a.svg"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512" width="496" height="512" preserveaspectratio="xMidYMid meet"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 236.25px; height: 210px; left: 640px; top: 280px; min-width: 1px; min-height: 1px;" data-name="image-db6dd6" data-block-id="e925ee653d0b2887b745f36850726aaa"><div class="sl-block-content" style="z-index: 12;" data-inline-svg="true">
+<img style="" data-natural-width="576" data-natural-height="512" data-lazy-loaded="" data-src="ms-thesis-defense/0c9b9d6bb3c56b45a426e7f82ffc00ac.svg"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book-open" class="svg-inline--fa fa-book-open fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" width="576" height="512" preserveaspectratio="xMidYMid meet"><path fill="currentColor" d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"></path></svg>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 207px; height: 100px; left: 654.625px; top: 187px; min-width: 1px; min-height: 1px;" data-name="image-27c666" data-block-id="81c78b7983082c803da272fe611d7a95"><div class="sl-block-content" style="z-index: 13;" data-inline-svg="false"><img style="" data-natural-width="207" data-natural-height="100" data-lazy-loaded="" data-src="ms-thesis-defense/aa4bb4ea6236bf4f59e205e42b1665e6.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 184px; height: 184px; left: 91.6565px; top: 516px; min-width: 1px; min-height: 1px;" data-name="image-937c69" data-block-id="6d148381a3001257f673c01a8975703e"><div class="sl-block-content" style="z-index: 14;" data-inline-svg="false"><img style="" data-natural-width="1155" data-natural-height="1155" data-lazy-loaded="" data-src="ms-thesis-defense/eeede9ae607c89239e74f74249ecdd7b.svg"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 184px; height: 184px; left: 666.125px; top: 516px; min-width: 1px; min-height: 1px;" data-name="image-bf8a1e" data-block-id="4074dd7cec48fb0e7720fce03ea09524"><div class="sl-block-content" style="z-index: 15;" data-inline-svg="false"><img style="" data-natural-width="1147" data-natural-height="1147" data-lazy-loaded="" data-src="ms-thesis-defense/662c1c97e4cd0aa532c19262fa589432.svg"></div></div></section><section data-id="c81831633bfccc76861e855aeed2f91c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="f65031f8d434938a442875b1b7444fc9"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Supplement</h1>
+</div></div></section><section data-id="b7f62ac5fd671f7f22f56d8c733d746d"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 23px; height: auto;" data-block-id="2175de787c6459d41a4c5a5a65bcc44e"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Dataplane</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 960px; height: 529.628px; left: 0px; top: 155.186px; min-width: 1px; min-height: 1px;" data-block-id="e5f582f0b5a7799739ed4e7ac0a3848b"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="2447" data-natural-height="1350" data-lazy-loaded="" data-src="ms-thesis-defense/d58e9321d7faf5cad967ffb9566bc72e.png"></div></div></section></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1758970,"slug":"ms-thesis-defense","title":"MS thesis Defense","description":"Enabling Rapid Prototyping of Audio Signal Processing System using System-on-Chip Field Programmable Gate Arrays. ","width":960,"height":700,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/1b1d783b66f139e6a09756df3f6cde76/thumb.jpg?1586313339","view_count":0,"user":{"id":1299856,"username":"tvannoy","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/c2e092b97a3c56cc81a493f4e08bfba7?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":true,"lite":false,"team_id":null,"settings":{"id":5145024,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"fade","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":true,"slide_count":60,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":3,"data_updated_at":1586314033253,"font_typekit":null,"font_google":null,"time_limit":null,"upsizing_enabled":true,"notes":{"9a1e0c1d2ab0a464bb6c33df3ad669c4":"set the scene. explain what my title means and give an example"}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "fade",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js' },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+    </script>
+
+		
+
+	</body>
+</html>

@@ -1,0 +1,13 @@
+.BC0,
+.BC1,
+.BC2,
+.BC3,
+.BC4,
+.BC5 { background-image: url('BC_icons.png'); width: 16px; height: 16px; }
+
+.BC0 { background-position: -0px; }
+.BC1 { background-position: -16px; }
+.BC2 { background-position: -32px; }
+.BC3 { background-position: -48px; }
+.BC4 { background-position: -64px; }
+.BC5 { background-position: -80px; }
